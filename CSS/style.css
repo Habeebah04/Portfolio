@@ -1,0 +1,445 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+}
+.hero-image{
+    background-image: url(../IMG/IMG_0003.JPG);
+    background-position:center;
+    width: 100%;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+}
+.hero-text{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.list ul{
+    list-style-type: none;
+}
+.list ul li{
+    flex: 1;
+    text-align: right;
+    padding: 7px 12px;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+.list ul li a{
+    color: white;
+}
+.hero-text .fa-bars{
+    display: none;
+}
+
+.text{
+    padding-left: 15%;
+    color: white;
+    margin-top: 100px;
+}
+.text h6{
+    background-color: rgb(54, 54, 54);
+    display: inline-block;
+    padding: 5px;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+
+}
+.text h1{
+    padding-bottom: 30px;
+}
+.text p{
+    line-height: 20px;
+    color: lightgray;
+}
+.text button{
+    padding: 18px 30px;
+    background-color:black;
+    color: lightgray;
+    border: 1px solid lightgrey;
+    margin-top: 40px;
+}
+.text button:hover{
+    background-color: gray;
+}
+.text button:active{
+    background-color: rgb(210, 134, 134);
+}
+.logo h1{
+    color: lightgray;
+    font-weight:100;
+    font-size: 150px;
+    opacity: 0.2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+}
+.logo span{
+    position: relative;
+    left: 15%;
+    bottom: 110px;
+    border: 1px solid none;
+    padding: 3px 35px;
+    padding-left: 30px;
+    background-color: white;
+    line-height: 30px;
+    color: black;
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-family: serif;
+}
+.whole-container{
+    width: 80%;
+    margin: auto;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.about p{
+    line-height: 30px;
+}
+.about button{
+    padding: 15px 45px;
+    background-color:black;
+    color: lightgray;
+    border: 1px solid lightgrey;
+    margin-top: 40px;
+    letter-spacing: 2px;
+}
+.about button:hover{
+    background-color: grey;
+}
+.about button:active{
+    background-color:rgb(210, 134, 134);
+}
+.skills{
+    margin-top: -30px;
+}
+.skills p{
+letter-spacing: 1px;
+margin-top: 30px;
+margin-bottom: 5px;
+padding-bottom: 10px;
+}
+.progress-bar{
+    background-color: rgb(236, 234, 234);
+    height: 3px;
+    width: 450px;
+}
+.progress-bar div{
+    /* height: 3px;
+    width: 50%;
+    background-color: black; */
+
+}
+.progress-bar .html{
+    height: 3px;
+    width: 90%;
+    background-color: black;
+}
+.progress-bar .css{
+    height: 3px;
+    width: 75%;
+    background-color: black;
+}
+.progress-bar .javascripts{
+    height: 3px;
+    width: 30%;
+    background-color: black;
+}
+.progress-bar .bootstrap{
+    height: 3px;
+    width: 15%;
+    background-color: black; 
+}
+.progress-bar .react{
+    height: 3px;
+    width: 10%;
+    background-color: black;
+}
+.work{
+margin-top: 80px;
+}
+.work p{
+    color: rgb(177, 177, 177);
+    font-size: 100px;
+    font-weight: 100;
+    opacity: 0.2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.work span{
+    position: relative;
+    left: 40%;
+    bottom: 120px;
+    border: 1px solid none;
+    padding: -2px 20px;
+    padding-left: 20px;
+    padding-right: 50px;
+    background-color: white;
+    font-weight: bold;
+    line-height: 30px;
+    font-size: 20px;    
+    letter-spacing: 2px;
+    color: black;
+     font-family: serif;
+}
+.whole-block{
+    display: flex;
+    margin: -50px 8px 0 8px;
+    justify-content: center;
+    gap: 25px;
+}
+ .block1{
+    display: block;
+} 
+.url{
+    width: 450px;
+    height: 450px;
+}
+.glam{
+    width: 450px;
+    height: 450px;
+    margin-top: 40px;
+}
+.block2{
+    display: block;
+} 
+.beauty{
+    width: 500px;
+    height: 300px;
+}
+.mobil{
+    width: 500px;
+    height: 300px;
+    margin-top: 40px;
+}
+.block1 p{
+    text-align: right;
+}
+.underline{
+    width: 95px;
+    height: 2px;
+    background-color: black;
+    margin: 0px 0px 0 79%;
+}
+.underline2{
+    width: 150px;
+    height: 2px;
+    background-color: black;
+    margin: 0px 0px 0 66%; 
+} 
+.underline3{
+    width: 140px;
+    height: 2px;
+    background-color: black;
+    margin: 2px 0 0 72%; 
+}
+.underline4{
+    width: 114px;
+    height: 2px;
+    background-color: black;
+    margin: 2px 0 0 77%; 
+}
+.block2 p{
+    text-align: right;
+}
+.block2 button{
+    margin-top: 100px;
+    padding: 15px 35px;
+    background-color:black;
+    color: lightgray;
+    border: 1px solid lightgrey;
+    letter-spacing: 2px;
+}
+.block2 button:hover{
+    background-color: grey;
+}
+.block2 button:active{
+    background-color: rgb(210, 134, 134) ;
+}
+.footer{
+    background-color: black;
+    margin-top: 100px;
+   height: 400px;
+    padding: 100px 50px 20px 100px;
+} 
+.section{
+    color: white;
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    /* margin: auto; */
+}
+.header h2{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.header p{
+color: gray;
+line-height: 25px;
+padding-top: 20px;
+}
+.row1 ul{
+list-style-type: none;
+}
+.row1 ul li{
+ line-height: 30px;
+ font-weight: bold;
+ color: gray;
+}
+.row2 ul{
+    list-style-type: none;
+}
+.row2 ul li{
+    line-height: 30px;
+    font-weight: bold;
+    color: gray;
+}
+.row3 ul{
+    list-style-type: none;
+}
+.row3 ul li{
+    line-height: 30px;
+    font-weight: bold;
+    color: grey;
+}
+.icons {
+display:flex;
+gap: 20px;
+/* padding-left: -30px;  */
+}
+.fa-brands{
+    color: gray;
+}
+.contact button{
+    border: solid 1px none ;
+    border-radius: 30px;
+    padding: 15px 20px;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    background-color: deeppink;
+    margin-left: 10px;
+    border: none;
+   
+}
+.contact button:hover{
+    background-color: rgb(230, 135, 219);
+}
+.contact button:active{
+    background-color: deeppink;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: grey;
+    margin-top: 70px;
+}
+.copy{
+    color: grey;
+    text-align: center;
+    margin-top: 50px;
+}
+@media (max-width:950px) {
+.container{
+display: block;
+   }
+   .whole-block{
+    flex-direction: column;
+   }
+   .hero-image{
+    height: 100%;
+    padding-bottom: 100px;
+   }
+   .list{
+    position:fixed;
+    top: 0;
+    right: -400px;
+    background-color: black;
+    width: 40%;
+    height: 100vh;
+   
+   }
+   .list ul li{
+    display: block;
+    text-align: center;
+    padding-top: 100px;
+
+   }
+   .list ul .fa-times{
+    text-align: left;
+    color: white;
+    font-size: 30px;
+   }
+  .hero-text .fa-bars{
+    color: white;
+    display: block;
+}
+.hero-text .fa-bars:before {
+    content: "\f0c9";
+    font-size: 30px;
+}
+   .section{
+    flex-direction: column;
+   }
+   .footer{
+    height: 100%;
+    padding-bottom: 30px;
+   }
+.url, .beauty, .glam, .mobil{
+    width: 100%;
+}
+.logo h1{
+   font-size: 80px;
+}
+.logo span{
+    bottom: 65px;
+}
+.work p{
+    font-size: 60px;
+}
+.work span{
+    left: 25%;
+    bottom: 100px;
+}
+.underline{
+   display: none;
+}
+.underline2{
+    display: none;
+}
+.underline3{
+   display: none; 
+}
+.underline4{
+  display: none;
+}
+.skills{
+    margin-top: 50px;
+}
+.progress-bar{
+    width:100%;
+}
+.contact button{
+    border: none;
+}
+}
+
