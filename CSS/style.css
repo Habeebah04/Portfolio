@@ -373,13 +373,13 @@ display: block;
     right: -400px;
     background-color: black;
     width: 40%;
-    height: 100vh;
+    height: 100%;
    
    }
    .list ul li{
     display: block;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
 
    }
    .list ul .fa-times{
