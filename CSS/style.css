@@ -386,6 +386,7 @@ display: block;
     text-align: left;
     color: white;
     font-size: 30px;
+    display: block;
    }
   .hero-text .fa-bars{
     color: white;
